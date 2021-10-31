@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <h1>Github Portofolio</h1>
+    <h1>Github Portofolio Test</h1>
   );
 }
 
