@@ -8,10 +8,7 @@ const illustration = {
 const greeting = {
     username: "Winston Wijaya",
     title: "Hello everyone, I'm Winston",
-    subTitle: emoji("A passionate Software Engineer 🚀 having experience of \
-              building Web and Mobile applications with JavaScript / PHP / \
-              Laravel and some other libraries and frameworks.\n\
-              Experienced in designing UI/UX using Figma dan Justinmind"),
+    subTitle: emoji("A passionate Software Engineer 🚀 having experience of building Web and Mobile applications with JavaScript / PHP / Laravel and some other libraries and frameworks.\nExperienced in designing UI/UX using Figma dan Justinmind"),
     resumeLink:
         "https://drive.google.com/file/d/1a2x9zZGoj5k1Nw_BXNOHaJ_wdpHCWm_v/view?usp=sharing",
     display: true
@@ -42,19 +39,19 @@ const skillSection = {
         },
         {
             skillName: "css3",
-            fontAwesomeClassname: "fab fa-css3-alt"
+            fontAwesomeClassname: "fab fa-css3"
         },
         {
             skillName: "Javascript",
             fontAwesomeClassname: "fab fa-js"
         },
         {
-            skillName: "reactjs",
+            skillName: "React JS",
             fontAwesomeClassname: "fab fa-react"
         },
         {
             skillName: "sql-database",
-            fontAwesomeClassname: "fab fa-database"
+            fontAwesomeClassname: "fa fa-database"
         },
         {
             skillName: "PHP",
@@ -76,7 +73,7 @@ const educationSection = {
     schools: [
         {
             schoolName: "Bandung Institute of Technology",
-            logo: require("./assets/img/itbLogo.png"),
+            logo: "https://2.bp.blogspot.com/-Rztf3yrB9eA/UpllF4HaTGI/AAAAAAAADuM/VOcTz0yTIgo/s1600/Logo-Institut-teknologi-Bandung3.png",
             subHeader: "Bachelor of Science in Informatics / Computer Science",
             duration: "August 2017 - October 2021"
         }
@@ -91,8 +88,7 @@ const experienceSection = {
             company: "Sportigo Indonesia",
             companylogo: require("./assets/img/sportigoLogo.png"),
             date: "June 2020 – July 2020",
-            desc: "Internship working experience as software engineer to\
-                    develop a mobile application",
+            desc: "Internship working experience as software engineer to develop a mobile application",
             descBullets: [
                 "Developing front end using React Native and Typescript",
                 "Developing back end using Laravel and mySQL database"
@@ -113,20 +109,14 @@ const projectSection = {
     subTitle: "Some personal projects I've done",
     projects: [
         {
-            image: require("./assets/images/bccLogo.png"),
+            image: require("./assets/img/bccLogo.png"),
             projectName: "PYC Business Case Competition IPFEST 2020 Website",
-            projectDesc: "Designing and developing web application to support\
-                          minigame in the event: helping participant to know\
-                          their current status and helping committee to update\
-                          participant status"
+            projectDesc: "Designing and developing web application to support minigame in the event: helping participant to know their current status and helping committee to update participant status"
         },
         {
-            image: require("./assets/images/ipfestLogo.png"),
+            image: require("./assets/img/ipfestLogo.png"),
             projectName: "IPFEST 2021 Website",
-            projectDesc: "Developing web application for IPFEST 2021 event \
-                          for various purpose, such as displaying IPFEST 2021\
-                          related information, competition registration, and \
-                          other uses"
+            projectDesc: "Developing web application for IPFEST 2021 event for various purpose, such as displaying IPFEST 2021 related information, competition registration, and other uses"
         }
     ],
     display: true

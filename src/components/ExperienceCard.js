@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Portofolio = () => {
+const ExperienceCard = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Portofolio = () => {
     )
 }
 
-export default Portofolio
+export default ExperienceCard
