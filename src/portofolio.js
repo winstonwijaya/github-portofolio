@@ -19,6 +19,7 @@ const socialMediaLinks = {
     github: "https://github.com/winstonwijaya",
     linkedin: "https://www.linkedin.com/in/winston-wijaya-9b5b58169/",
     gmail: "winstonwijaya984@gmail.com",
+    instagram: "https://www.instagram.com/winstonwijaya04/",
     display: true
 };
 

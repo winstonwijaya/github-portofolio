@@ -18,6 +18,10 @@ body {
   font-weight: bold;
 }
 
+.dark{
+  color: #000;
+}
+
 /**************************** Navigation Bar ******************************/
 nav a.nav-link{
   cursor: pointer;
@@ -45,6 +49,10 @@ ul > li > a{
 .profile{
   width: 50rem;
   /* border-radius: 50%; */
+}
+
+.contact{
+  width: 20rem;
 }
 
 .main{
@@ -363,7 +371,7 @@ ul > li > a{
   gap: 1rem 1rem;
 }
 
-.experience-heading, .projects-heading {
+.experience-heading, .projects-heading, .contact-heading {
   /* font-size: 56px; */
   color: #000;
   /* font-weight: 400; */
@@ -627,12 +635,164 @@ ul > li > a{
 .redirectButton{
   background-color: #150050 !important;
   color: #fff !important;
+  font-weight: bold !important;
 }
 
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
     text-align: center;
+  }
+}
+
+/* Social Media */
+.social-media-div {
+  font-size: 2em;
+}
+
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.icon-button i {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+
+.facebook i {
+  background-color: #3b5998;
+}
+
+.linkedin i {
+  background-color: #0e76a8;
+}
+
+.github i {
+  background-color: #333;
+}
+
+.google i {
+  background-color: #ea4335;
+}
+
+.instagram i {
+  background-color: #c13584;
+}
+
+/* Hover Transition */
+.google i:hover,
+.github i:hover,
+.linkedin i:hover,
+.instagram i:hover{
+  background-color: #000;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}
+
+/* Contact */
+.contact-div-main {
+  display: flex;
+}
+
+.dark-mode a {
+  color: #fff;
+}
+
+.contact-div-main > * {
+  flex: 1;
+}
+
+.contact-title {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.contact-detail,
+.contact-detail-email {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #150050;
+  text-decoration: none;
+}
+
+.contact-detail:hover,
+.contact-detail-email:hover {
+  color: #000;
+  text-shadow: 2px 1px 2px #b5b5b5;
+  transition: all 0.3s;
+}
+
+.contact-subtitle {
+  text-transform: uppercase;
+}
+
+.contact-text-div {
+  margin-top: 1.5rem;
+}
+
+.contact-margin-top {
+  margin-top: 4rem;
+}
+
+.contact-image-div > img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: -4rem;
+}
+
+/* Media Query */
+@media (max-width: 1380px), (max-width: 768px) {
+  .contact-title {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .contact-text-div {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 20px;
+  }
+
+  .contact-image-div {
+    display: none;
   }
 }
 

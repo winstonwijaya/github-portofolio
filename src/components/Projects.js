@@ -14,7 +14,7 @@ export default function Projects()  {
         <div className="container my-5 pt-5" id="projects">
             <div className="main" id="projects">
                     <h1 className="projects-heading bold pt-4">{projectSection.title}</h1>
-                    <p className= "subTitle project-subtitle">
+                    <p className= "subTitle project-subtitle bold">
                         {projectSection.subTitle}
                     </p>
 

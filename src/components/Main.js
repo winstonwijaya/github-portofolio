@@ -1,6 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import Contact from './Contact';
 import Education from './Education';
 import Experience from './Experience';
 import Greeting from './Greeting';
@@ -26,6 +27,7 @@ const Main = () => {
                 <Education />
                 <Experience />
                 <Projects />
+                <Contact />
             </StyleProvider>
         </div>
     )
