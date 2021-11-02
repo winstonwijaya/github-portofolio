@@ -4,7 +4,7 @@ import { experienceSection } from '../portofolio';
 
 export default function Experience() {
     return (
-        <div className="container-fluid d-flex my-5 pt-5 experienceContainer " id="experience">
+        <div className="container d-flex my-5 pt-5 experienceContainer " id="experience">
             <div className="experience-container" id="workExperience">
                 <div>
                     <h1 className="experience-heading bold my-4">Experiences</h1>
@@ -24,7 +24,7 @@ export default function Experience() {
                             }}
                             />
                         );
-                    })}
+                        })}
                     <div className="flex-grow-1"></div>
                     </div>
                 </div>

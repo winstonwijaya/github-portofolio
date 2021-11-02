@@ -106,17 +106,19 @@ const openSource = {
 // Projects worked on
 const projectSection = {
     title: "Personal Projects",
-    subTitle: "Some personal projects I've done",
+    subTitle: "Some personal projects I've done!",
     projects: [
         {
-            image: require("./assets/img/bccLogo.png"),
+            image:("img/bccLogo.png"),
             projectName: "PYC Business Case Competition IPFEST 2020 Website",
-            projectDesc: "Designing and developing web application to support minigame in the event: helping participant to know their current status and helping committee to update participant status"
+            projectDesc: "Designing and developing web application to support minigame in the event: helping participant to know their current status and helping committee to update participant status",
+            githubUrl: "https://github.com/winstonwijaya/bccipfest2020",
         },
         {
-            image: require("./assets/img/ipfestLogo.png"),
+            image: ("img/ipfestLogo.png"),
             projectName: "IPFEST 2021 Website",
-            projectDesc: "Developing web application for IPFEST 2021 event for various purpose, such as displaying IPFEST 2021 related information, competition registration, and other uses"
+            projectDesc: "Developing web application for IPFEST 2021 event for various purpose, such as displaying IPFEST 2021 related information, competition registration, and other uses",
+            githubUrl: "https://github.com/winstonwijaya/ipfest"
         }
     ],
     display: true

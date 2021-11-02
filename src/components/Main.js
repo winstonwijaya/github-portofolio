@@ -5,6 +5,7 @@ import Education from './Education';
 import Experience from './Experience';
 import Greeting from './Greeting';
 import Navbar from './Navbar';
+import Projects from './Projects';
 import Skills from './Skills';
 import { StyleProvider } from '../contexts/StyleContext'
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -24,6 +25,7 @@ const Main = () => {
                 <Skills />
                 <Education />
                 <Experience />
+                <Projects />
             </StyleProvider>
         </div>
     )
