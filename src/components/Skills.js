@@ -4,7 +4,7 @@ import { skillSection } from '../portofolio';
 
 const Skills = () => {
     return (
-        <div className="container my-5" id="skills">
+        <div className="container my-5 skillsContainer" id="skills">
             <div className="skills-text-div">
                 <h1 className= "skills-heading mb-2">
                     {skillSection.title}{" "}

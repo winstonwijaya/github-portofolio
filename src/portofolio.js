@@ -86,7 +86,7 @@ const experienceSection = {
         {
             role: "Software Engineer",
             company: "Sportigo Indonesia",
-            companylogo: require("./assets/img/sportigoLogo.png"),
+            companylogo: "https://lpik.itb.ac.id/assets/images/company/5f29101f6ee41.png",
             date: "June 2020 – July 2020",
             desc: "Internship working experience as software engineer to develop a mobile application",
             descBullets: [

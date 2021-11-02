@@ -2,6 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import Education from './Education';
+import Experience from './Experience';
 import Greeting from './Greeting';
 import Navbar from './Navbar';
 import Skills from './Skills';
@@ -22,7 +23,7 @@ const Main = () => {
                 <Greeting />
                 <Skills />
                 <Education />
-
+                <Experience />
             </StyleProvider>
         </div>
     )
