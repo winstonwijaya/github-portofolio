@@ -41,6 +41,10 @@ ul > li > a{
   border-top: 0.2rem solid var(--border-top-nav);
 }
 
+/* .navbar-nav > li > a.active{
+  border-top: 0.2rem solid var(--border-top-nav);
+} */
+
 /**************************** Greeting ******************************/
 .greeting-container{
   padding-top: 5%;
