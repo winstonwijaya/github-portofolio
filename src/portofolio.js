@@ -8,9 +8,9 @@ const illustration = {
 const greeting = {
     username: "Winston Wijaya",
     title: "Hello everyone, I'm Winston",
-    subTitle: emoji("A passionate Software Engineer 🚀 having experience of building Web and Mobile applications with JavaScript / PHP / Laravel and some other libraries and frameworks.\nExperienced in designing UI/UX using Figma dan Justinmind"),
+    subTitle: emoji("A passionate Software Engineer 🚀 having experience of building Web and Mobile applications with JavaScript / PHP / Laravel / CodeIgniter and some other libraries and frameworks.\nExperienced in designing UI/UX using Figma dan Justinmind"),
     resumeLink:
-        "https://drive.google.com/file/d/1a2x9zZGoj5k1Nw_BXNOHaJ_wdpHCWm_v/view?usp=sharing",
+        "https://drive.google.com/file/d/14N_BMUDfuAgmtR-bd4_6RHc_5M_apytt/view?usp=sharing",
     display: true
 };
 
@@ -61,6 +61,10 @@ const skillSection = {
         {
             skillName: "Laravel",
             fontAwesomeClassname: "fab fa-laravel"
+        },
+        {
+            skillName: "CodeIgniter",
+            fontAwesomeClassname: "fa fa-code"
         },
         {
             skillName: "Figma",

@@ -1,6 +1,6 @@
 {
   "name": "github-portofolio",
-  "homepage": "https://winstonwijaya.github.io/github-portofolio/",
+  "homepage": "https://winstonwijaya.github.io/github-portofolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,12 +25,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
