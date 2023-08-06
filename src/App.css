@@ -10,7 +10,7 @@
 
 /**************************** Body font ******************************/
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
   background-color: #EFEFEF
 }
 

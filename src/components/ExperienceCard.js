@@ -32,7 +32,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
     return (
       <div className={"experience-card"}>
           {/* temporary background color = red */}
-        <div style={{background: "rgb(158,28,14)"}} className="experience-banner">
+        <div style={{background: cardInfo.backgroundColor}} className="experience-banner">
           <div className="experience-blurred_div"></div>
           <div className="experience-div-company">
             <h5 className="experience-text-company">{cardInfo.company}</h5>
@@ -40,7 +40,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
   
           <img
             className="experience-roundedimg"
-            src={cardInfo.companylogo}
+            src={cardInfo.companyLogo}
             alt={cardInfo.company}
           />
         </div>
