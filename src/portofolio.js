@@ -87,12 +87,26 @@ const experienceSection = {
         {
             role: "Software Engineer",
             company: "Sportigo Indonesia",
-            companylogo: "https://lpik.itb.ac.id/assets/images/company/5f29101f6ee41.png",
+            backgroundColor: "rgb(158,28,14)",
+            companyLogo: "/img/sportigoLogo.png",
             date: "June 2020 – July 2020",
             desc: "Internship working experience as software engineer to develop a mobile application",
             descBullets: [
                 "Developing front end using React Native and Typescript",
                 "Developing back end using Laravel and mySQL database"
+            ]            
+        },
+        {
+            role: "Web Developer",
+            company: "Geniebook Pte Ltd",
+            backgroundColor: "rgb(40,168,223)",
+            companyLogo: "/img/geniebookLogo.png",
+            date: "December 2021 – Present",
+            desc: "Full Time working experience as web developer to develop and maintain features related to sales and finance",
+            descBullets: [
+                "Developing front end using HTML, CSS, and JavaScript",
+                "Developing back end using PHP (CodeIgniter) and mySQL database",
+                "Implement features related with payments and create relevant documentations"
             ]            
         }
     ],

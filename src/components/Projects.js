@@ -27,7 +27,7 @@ export default function Projects()  {
                             {project.image ? (
                                 <div className="project-image">
                                 <img
-                                    src={process.env.PUBLIC_URL + project.image}
+                                    src={process.env.PUBLIC_URL + '/' + project.image}
                                     alt={project.projectName}
                                     className="card-image"
                                 ></img>

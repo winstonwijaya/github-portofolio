@@ -15,10 +15,11 @@ export default function Experience() {
                             key={i}
                             isDark={false}
                             cardInfo={{
+                                backgroundColor: card.backgroundColor,
                                 company: card.company,
                                 desc: card.desc,
                                 date: card.date,
-                                companylogo: card.companylogo,
+                                companyLogo: card.companyLogo,
                                 role: card.role,
                                 descBullets: card.descBullets
                             }}

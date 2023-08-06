@@ -16,7 +16,7 @@ export default function Greeting(){
     return (
         <div className="container d-flex greeting-container my-3" id="greeting">
             <div className="p-5">
-                <img src={ process.env.PUBLIC_URL + "img/undraw_laravel_and_vue.svg"} class="img-fluid profile" alt="profile"></img>
+                <img src={ process.env.PUBLIC_URL + "/img/undraw_laravel_and_vue.svg"} className="img-fluid profile" alt="profile"></img>
             </div>
             <div className="main p-3 my-auto">
                 <h1 className="greeting-text">
