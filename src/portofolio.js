@@ -106,7 +106,7 @@ const experienceSection = {
             descBullets: [
                 "Developing front end using HTML, CSS, and JavaScript",
                 "Developing back end using PHP (CodeIgniter) and mySQL database",
-                "Implement features related with payments and creating relevant documentations"
+                "Implement features related with payments and create relevant documentations"
             ]            
         }
     ],
